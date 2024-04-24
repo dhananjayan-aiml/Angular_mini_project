@@ -1,0 +1,28 @@
+<div style="text-align:center">
+    <h1 [style.textTransform]="textTransform">Angular discussion - mini projects</h1>
+    <div class="container">
+        <hr>
+        <button (click)="changeCase('capitalize')">Capitalize</button>
+        <button (click)="changeCase('uppercase')">Uppercase</button>
+        <button (click)="changeCase('lowercase')">Lowercase</button>
+        <br>
+        </div>
+  </div>
+  <hr>
+  <div class="flex-container">
+    <div>
+      <p>Task -1</p>
+      <hr>
+      <app-todolist></app-todolist>
+    </div>
+    <div>
+      <p>Task -2</p>
+      <hr>
+      <app-tictactoe></app-tictactoe>
+    </div>
+    <div>
+      <p>Task -3</p>
+      <hr>
+      <app-clock></app-clock>
+    </div>
+  </div>
